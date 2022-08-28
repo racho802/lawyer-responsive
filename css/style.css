@@ -1,0 +1,587 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    padding: 13px 0%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #204f87;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat;
+}
+
+.banner {
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hg {
+    min-height: 86vh;
+}
+
+.banner h1 {
+
+    font-size: 55px;
+
+    text-transform: uppercase;
+
+    color: #fff;
+
+    font-weight: 600;
+
+    font-family: Montserrat;
+}
+
+.icon {
+    position: absolute;
+    left: 50%;
+    top: 77%;
+    transform: translate(-50%, -25%);
+    animation: up-down 1s infinite linear;
+    animation-direction: alternate;
+}
+
+.icon i {
+    color: #fff;
+    font-size: 25px;
+}
+
+@keyframes up-down {
+    0% {
+        top: 77%;
+    }
+
+    100% {
+        top: 90%;
+    }
+}
+
+.who_section {
+
+    padding: 100px 0%;
+
+    justify-content: space-between;
+}
+
+.who_section span {
+
+    display: block;
+
+    width: 10%;
+
+    height: 4px;
+
+    background: #f2622c;
+
+    margin-bottom: 16px;
+}
+
+.who_section h1 {
+
+    color: #204f87;
+
+    font-size: 34px;
+
+    font-family: Montserrat;
+
+    font-weight: 700;
+
+    margin-bottom: 16px;
+}
+
+.who_section p {
+
+    font-size: 14px;
+
+    font-family: Myriad Pro;
+
+    color: #b0b0b1;
+}
+
+.who_section img {}
+
+.what {
+    padding: 60px;
+    background-color: #f7f8f8;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 69%;
+}
+
+.what h1 {
+
+    text-align: center;
+
+    color: #204f87;
+
+    font-size: 40px;
+
+    font-family: Montserrat;
+
+    font-weight: 700;
+
+    margin-bottom: 50px;
+
+    text-transform: uppercase;
+}
+
+.what span {
+
+    display: block;
+
+    background: #f2622c;
+
+    height: 4px;
+
+    width: 7%;
+
+    margin: auto;
+
+    margin-bottom: 17px;
+}
+
+.image {
+
+    position: relative;
+}
+
+.image::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,100f4f+46&0+0,1+75 */
+    background: -moz-linear-gradient(top, rgba(30, 87, 153, 0) 0%, rgba(16, 15, 79, 0.61) 46%, rgba(16, 15, 79, 1) 75%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(30, 87, 153, 0) 0%, rgba(16, 15, 79, 0.61) 46%, rgba(16, 15, 79, 1) 75%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 0%, rgba(16, 15, 79, 0.61) 46%, rgba(16, 15, 79, 1) 75%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001e5799', endColorstr='#100f4f', GradientType=0);
+    /* IE6-9 */
+
+
+
+
+
+    opacity: .5;
+    transition: .4s all ease-in-out;
+    cursor: pointer;
+
+}
+
+.image:hover::after {
+    height: 100%;
+
+}
+
+.image img {}
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .4s all ease-in-out;
+    z-index: 1;
+}
+
+.content h1 {
+    color: #fff;
+    font-size: 25px;
+
+    font-weight: 600;
+}
+
+.image:hover .content {
+    opacity: 1;
+    top: 50%;
+}
+
+.what-icon {
+    position: absolute;
+    left: 30%;
+    bottom: 50px;
+    transform: translate(-50%);
+    opacity: 0;
+    transition: .4s all ease-in-out;
+    z-index: 1;
+}
+
+.what-icon i {
+    color: #fff;
+    font-size: 23px;
+}
+
+.image:hover .what-icon {
+    opacity: 1;
+    left: 50%;
+}
+
+.attorney {
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    padding: 100px 0%;
+    position: relative;
+
+}
+
+.intro-section {}
+
+.attorney span {
+
+    display: block;
+
+    height: 4px;
+
+    width: 14%;
+
+    background: #f47b3b;
+
+    margin-bottom: 20px;
+}
+
+.attorney h1 {
+
+    font-size: 42px;
+
+    color: #fff;
+
+    font-family: Montserrat;
+
+    font-weight: 600;
+
+    text-transform: uppercase;
+}
+
+.attorney p {
+
+    font-size: 15px;
+
+    font-family: Montserrat;
+
+    color: #929dcf;
+
+    font-weight: 200;
+
+    margin-bottom: 28px;
+}
+
+.attorney a {
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #f2622c;
+    font-family: Montserrat;
+    transition: .4s all ease-in-out;
+
+
+}
+.navbar-light .navbar-toggler {
+    color: rgb(28 37 78);
+    border-color: #fff;
+}
+button:focus:not(:focus-visible) {
+    outline: 0;
+    box-shadow: none;
+}
+
+.attorney a:hover {
+    color: #fff;
+
+}
+
+.gallery {
+
+    position: relative;
+   
+}
+
+.gallery::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0%;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,28377e+46&0+0,1+61 */
+    background: -moz-linear-gradient(top, rgba(30, 87, 153, 0) 0%, rgba(40, 55, 126, 0.75) 46%, rgba(40, 55, 126, 1) 61%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(30, 87, 153, 0) 0%, rgba(40, 55, 126, 0.75) 46%, rgba(40, 55, 126, 1) 61%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(30, 87, 153, 0) 0%, rgba(40, 55, 126, 0.75) 46%, rgba(40, 55, 126, 1) 61%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#001e5799', endColorstr='#28377e', GradientType=0);
+    /* IE6-9 */
+
+
+
+    opacity: .5;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+
+}
+
+.gallery:hover::before {
+    height: 50%;
+}
+
+.gallery img {}
+
+.name {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    opacity: 0;
+    z-index: 1;
+    transition: .4s all ease-in-out;
+    cursor: pointer;
+}
+
+.gallery:hover .name {
+    opacity: 1;
+    bottom: 30px;
+}
+
+.name h1 {
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+.language {
+
+    padding: 95px;
+}
+
+.language span {
+
+    display: block;
+
+    background: #f2622c;
+
+    height: 4px;
+
+    width: 7%;
+
+    margin: auto;
+
+    margin-bottom: 20px;
+}
+
+.language h1 {
+
+    text-align: center;
+
+    color: #28377e;
+
+    font-size: 40px;
+
+    font-family: Montserrat;
+
+    font-weight: 700;
+
+    margin-bottom: 70px;
+
+    text-transform: uppercase;
+}
+
+.the_language {}
+
+.the_language h1 {
+
+    font-size: 22px;
+
+    color: #28377e;
+
+    text-align: left;
+
+    margin-bottom: 30px;
+}
+
+.the_language p {
+
+    font-size: 16px;
+
+    font-family: Montserrat;
+
+    color: #b1b0b1;
+
+    margin-bottom: 28px;
+}
+
+.the_language a {
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #f2622c;
+    text-transform: uppercase;
+    font-family: Open sans-serif;
+    transition: .4s all ease-in-out;
+}
+
+.the_language a:hover {
+    color: #28377e;
+}
+
+.contact {
+
+    background-color: #28377e;
+
+    padding: 85px;
+}
+
+.contact span {
+
+    display: block;
+
+    background: #f2622c;
+
+    height: 4px;
+
+    width: 12%;
+
+    margin: auto;
+
+    margin-bottom: 20px;
+}
+
+.contact h1 {
+
+    text-align: center;
+
+    color: #fff;
+
+    font-size: 40px;
+
+    font-family: Montserrat;
+
+    font-weight: 700;
+
+    margin-bottom: 70px;
+
+    text-transform: uppercase;
+}
+
+form {
+    text-align: center;
+}
+
+form input {
+
+    outline: none;
+    
+    background: transparent;
+
+    border: none;
+
+    border-bottom: 1px solid #454c86;
+
+    width: 86%;
+
+    padding: 6px 0%;
+
+    margin-bottom: 25px;
+
+    font-size: 16px;
+    font-family: Montserrat;
+    color: #fff;
+    font-weight: 500;
+}
+
+form textarea {
+
+    background: transparent;
+    outline: none;
+    border: none;
+
+    border-bottom: 1px solid #454c87;
+
+    width: 86%;
+
+    padding: 6px 0%;
+
+    margin-bottom: 15px;
+
+    height: 43px;
+
+    color: #fff;
+}
+
+form input[type=submit] {
+
+    border: 1px solid #454c87;
+    width: 22%;
+    margin-top: 35px;
+    transition: .4s all ease-in-out;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+form input[type=submit]:hover {
+    background: #f2622c;
+}
+
+footer {
+
+    padding: 30px;
+
+    background-color: #0c1234;
+}
+
+.left {}
+
+.left p {
+
+    font-size: 16px;
+
+    color: #616ca8;
+
+    margin: 0;
+}
+
+.right {}
+
+.right ul {
+
+    list-style: none;
+
+    display: flex;
+
+    justify-content: end;
+
+    margin: 0;
+}
+
+.right ul li {
+    margin-left: 25px;
+}
+
+.right ul li a {
+
+    text-decoration: none;
+
+    color: #fff;
+
+    font-size: 19px;
+}

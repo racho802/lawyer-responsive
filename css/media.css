@@ -1,0 +1,217 @@
+@media(max-width:992px){
+    .navbar-brand img{
+        width: 150px;
+    }
+    .navbar-nav {
+        align-items: center;
+        border: 1px solid transparent;
+        background: #f2612c5e;
+        border-radius: 5px 30px 5px 30px;
+        margin-top: 20px;
+    }
+    .banner h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .attorney h1 {
+        font-size: 36px;
+    }
+}
+@media(max-width:767px){
+    .navbar-brand img{
+        width: 150px;
+    }
+    .navbar-nav {
+        align-items: center;
+        border: 1px solid transparent;
+        background: #f2612c5e;
+        border-radius: 5px 30px 5px 30px;
+        margin-top: 20px;
+    }
+    .banner h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .who_section span {
+        margin: auto;
+        width: 15%;
+        margin-bottom: 20px;
+    }
+    .who_section h1 {
+        text-align: center;
+    }
+    .who_section p {
+        text-align: center;
+    }
+    .what span {
+        width: 17%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .what h1 {
+        font-size: 31px;
+    }
+    .image {
+        margin-bottom: 20px;
+    }
+    .attorney span {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .attorney h1 {
+        font-size: 38px;
+        text-align: center;
+    }
+    .attorney p {
+        text-align: center;
+    }
+    .attorney a {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .language span {
+        width: 15%;
+    }
+    .language h1 {
+        font-size: 35px;
+    }
+    .the_language h1 {
+        text-align: center;
+    }
+    .the_language p {
+        text-align: center;
+    }
+    .the_language a {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .contact span {
+        width: 15%;
+    }
+    .contact h1 {
+        font-size: 35px;
+    }
+    form input {
+        width: 100%;
+    }
+    form textarea {
+        width: 100%;
+    }
+    form input[type=submit] {
+        width: 40%;
+    }
+    .left p {
+        margin: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .right ul {
+        display: flex;
+        justify-content: center;
+    }
+    .self {
+        text-align: center!important;
+        margin-top: 20px;
+    }
+}
+@media(max-width:575px){
+    .navbar-brand img{
+        width: 150px;
+    }
+    .navbar-nav {
+        align-items: center;
+        border: 1px solid transparent;
+        background: #f2612c5e;
+        border-radius: 5px 30px 5px 30px;
+        margin-top: 20px;
+    }
+    .banner h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .who_section span {
+        margin: auto;
+        width: 18%;
+        margin-bottom: 20px;
+    }
+    .who_section h1 {
+        text-align: center;
+    }
+    .who_section p {
+        text-align: center;
+    }
+    .what span {
+        width: 20%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .what h1 {
+        font-size: 31px;
+    }
+    .image {
+        margin-bottom: 20px;
+    }
+    .attorney span {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .attorney h1 {
+        font-size: 38px;
+        text-align: center;
+    }
+    .attorney p {
+        text-align: center;
+    }
+    .attorney a {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .language span {
+        width: 20%;
+    }
+    .language h1 {
+        font-size: 35px;
+    }
+    .the_language h1 {
+        text-align: center;
+    }
+    .the_language p {
+        text-align: center;
+    }
+    .the_language a {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .contact span {
+        width: 20%;
+    }
+    .contact h1 {
+        font-size: 35px;
+    }
+    form input {
+        width: 100%;
+    }
+    form textarea {
+        width: 100%;
+    }
+    form input[type=submit] {
+        width: 50%;
+    }
+    .left p {
+        margin: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .right ul {
+        display: flex;
+        justify-content: center;
+    }
+    .self {
+        text-align: center!important;
+        margin-top: 20px;
+    }
+}
